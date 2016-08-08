@@ -2,11 +2,12 @@ protostrings overview
 =====================
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
     overview/lazy_strings
     overview/context_strings
     overview/composition_metaclass
+    overview/appendix
 
 
 .. comment: split here

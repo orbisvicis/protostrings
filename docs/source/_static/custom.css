@@ -11,3 +11,10 @@ div.sphinxsidebar ul li.toctree-l1 > a {
 div.sphinxsidebar ul li.toctree-l2 > a {
     font-size: 90%;
 }
+
+/*
+img[alt="ContextStringValueErrorGraph"] {
+    float: right;
+    width: 75%;
+}
+*/

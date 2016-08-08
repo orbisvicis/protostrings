@@ -1,0 +1,49 @@
+digraph ContextStringValueError
+    { ordering=out
+      node  [shape=box]
+      a     [label="3" shape=circle]
+      b     [label="2" shape=circle]
+      c     [label="1" shape=circle]
+      d     [label="0" shape=circle]
+      al    [label="\"Python\""]
+      bl    [label="\"is\""]
+      cl    [label="\"a\""]
+      e     [label="\"widely\""]
+      cr    [label="\"used\""]
+      br    [label="\"programming\""]
+      ar    [label="\"language\""]
+      dl    [label="" shape=box width=0.1 height=0.1]
+      dr    [label="" shape=box width=0.1 height=0.1]
+      al_i1 [style=invis label="" width=0.75]
+      al_i2 [style=invis label="" width=0.75]
+      bl_i1 [style=invis label="" width=0.5]
+      bl_i2 [style=invis label="" width=0.5]
+      cl_i1 [style=invis label="" width=0.25]
+      cl_i2 [style=invis label="" width=0.25]
+      dl_i1 [style=invis label="" width=0.0]
+      dl_i2 [style=invis label="" width=0.0]
+
+      a     -> al
+      a     -> al_i1 [style=invis]
+      a     -> b
+      a     -> al_i2 [style=invis]
+      a     -> ar
+
+      b     -> bl
+      b     -> bl_i1 [style=invis]
+      b     -> c
+      b     -> bl_i2 [style=invis]
+      b     -> br
+
+      c     -> cl
+      c     -> cl_i1 [style=invis]
+      c     -> d
+      c     -> cl_i2 [style=invis]
+      c     -> cr
+
+      d     -> dl
+      d     -> dl_i1 [style=invis]
+      d     -> e
+      d     -> dl_i2 [style=invis]
+      d     -> dr
+    }

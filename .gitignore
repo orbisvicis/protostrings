@@ -2,8 +2,9 @@ __pycache__
 *.py[cdo]
 
 *.egg-info/
-*.eggs/
+.eggs/
 build/
+dist/
 
 docs/build/
 

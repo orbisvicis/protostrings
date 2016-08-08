@@ -66,6 +66,9 @@ class LazyString:
 
     @staticmethod
     def modify_defaults(f, defaults):
+        """Return a copy of the function `f` with
+           :py:attr:`~definition.__defaults__` set to `defaults`
+        """
         @decorator.decorator
         def wrapper(f, *args, **kwargs):
             return f(*args, **kwargs)
